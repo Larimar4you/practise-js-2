@@ -1,0 +1,1 @@
+{"version":3,"file":"main-Dp4r3q_y.js","sources":["../../src/main.js"],"sourcesContent":["import moviesData from './data/movie.json';\n\nconst BASE_URL_IMG = 'https://image.tmdb.org/t/p/w500';\n\nconsole.log(moviesData.results);\n"],"names":["moviesData"],"mappings":"+6XAIA,QAAQ,IAAIA,EAAW,OAAO"}
