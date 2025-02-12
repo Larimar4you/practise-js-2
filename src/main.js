@@ -27,7 +27,17 @@ function createMarkup(array) {
     .join('');
 }
 
-const markupMovies = createMarkkup(moviesData.results);
+const markupMovies = createMarkup(moviesData.results);
 console.log(markupMovies);
 
 taskList.insertAdjacentHTML('beforeend', markupMovies);
+
+export function createTaskMarkup(task) {
+  return `
+    <li class="task-list-item" data-id="${task.id}">
+      <button class="task-list-item-btn">Delete</button>
+      <h3>${task.title}</h3>
+      <p>${task.text}</p>
+    </li>
+  `;
+}
