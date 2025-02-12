@@ -27,7 +27,7 @@ function createMarkup(array) {
     .join('');
 }
 
-const marupMovies = createMarkup(moviesData.results);
-console.log(marupMovies);
+const markupMovies = createMarkkup(moviesData.results);
+console.log(markupMovies);
 
-taskList.insertAdjacentHTML('beforeend', marupMovies);
+taskList.insertAdjacentHTML('beforeend', markupMovies);
